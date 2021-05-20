@@ -1,0 +1,10 @@
+@media print {
+	@page {
+		margin: 1in;
+		size: A4 landscape;
+	}
+}
+
+body {
+	background-color: lightgray;
+}
