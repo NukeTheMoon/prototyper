@@ -1,20 +1,16 @@
 <template>
-	<img alt="Vue logo" src="./assets/logo.png" />
-	<HelloWorld msg="Welcome to Your Vue.js App" />
+	<BasePrint />
 </template>
 
 <script>
-import pl from '@/csv/pl.csv';
-
-import HelloWorld from './components/HelloWorld.vue';
+import BasePrint from './components/BasePrint.vue';
 
 export default {
 	name: 'App',
 	components: {
-		HelloWorld
+		BasePrint
 	},
 	setup() {
-		console.log(pl);
 		return {};
 	}
 };
