@@ -1,5 +1,7 @@
 <template>
-	<BasePrint />
+	<Suspense>
+		<base-print />
+	</Suspense>
 </template>
 
 <script>
